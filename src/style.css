@@ -1,5 +1,7 @@
 /** @format */
-
+:root {
+  --lighting-color: #0000ee;
+}
 body {
   font-family: "Times New Roman", Times, serif;
   background-color: #f8e8a6;
@@ -17,4 +19,10 @@ a {
 }
 a:hover {
   color: green;
+}
+.e-link {
+  color: var(--lighting-color);
+}
+.contact {
+  font-size: 18px;
 }
